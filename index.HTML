@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOWRUM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1659988421_59-kartinkin-net-p-chernii-fon-dlya-saita-krasivo-62.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .logo {   
+            width: 50px;
+            height: 50px;
+            background: #D9D9D9;
+            border-radius: 10px;
+        }
+        
+        .search-form {
+            margin: 15px 0;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .search-container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .search-input {
+            padding: 10px 15px;
+            font-size: 16px;
+            width: 100%;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+        
+        .search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #444;
+            color: #fff;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .search-button:hover {
+            background-color: #555;
+        }
+        
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        }
+        
+        .news-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .news-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .news-content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Logo.png" class="logo" alt="SHOWRUM Logo">
+            <h1>SHOWRUM</h1>
+            <div></div> <!-- Пустой div для выравнивания -->
+        </div>
+        <form class="search-form" action="#" method="GET">
+            <div class="search-container">
+                <input type="text" name="query" placeholder="Поиск..." class="search-input" />
+                <button type="submit" class="search-button">Найти</button>
+            </div>
+        </form>
+    </header>
+
+    <div class="container">
+        <h2 class="news-title">Новые поправки для автомобилистов</h2>
+        <img src="https://www.pnp.ru/upload/entities/2024/01/30/13/article/detailPicture/b3/fd/72/b4/e1332a1abf66a8a32c2f9fbbaed397da.jpg" alt="Госдума" class="news-image" />
+        <div class="news-content">
+            Госдума рассмотрела новые поправки по вождению авто...
+        </div>
+        <hr />
+
+        <h2 class="news-title">Xiaomi наконец-то начали продажу электромобиля YU7</h2>
+        <img src="https://китайские-автомобили.рф/wp-content/uploads/2024/12/chxkpwdyp4maacr4aavby8l0y78569.jpg" alt="Китайский Ferrari Purosangue" class="news-image" />
+        <div class="news-content">
+            Это очередной прорыв нового производителя телефонов, электрокроссовер очень быстрый и красивый...
+        </div>
+        <hr />
+
+        <h2 class="news-title">Новый бензиновый Dodge Charger Daytona</h2>
+        <img src="https://kolesa-uploads.ru/r/880x/82bd1c7a-e401-45da-a73f-958fa8d1a993/1-1.jpg" alt="Dodge Charger Daytona" class="news-image" />
+        <div class="news-content">
+            Скрытые шпионы заметили новенький Dodge Charger, который снимается в рекламе, появилось предположение, что это новая модификация...
+        </div>
+    </div>
+    
+    <div class="ad">
+        <img src="" alt="Реклама">
+    </div>
+    
+    <footer>
+        &copy; SHOWRUM 2025
+    </footer>
+</body>
+</html>
